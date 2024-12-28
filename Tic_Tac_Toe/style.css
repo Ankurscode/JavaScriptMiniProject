@@ -44,3 +44,28 @@ body{
     border: none;
     border-radius: 1rem;
 }
+.new-game{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(123, 55, 16);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+}
+
+#msg{
+    color: beige;
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    gap: 4rem;
+}
+.hide{
+    display: none;
+}
